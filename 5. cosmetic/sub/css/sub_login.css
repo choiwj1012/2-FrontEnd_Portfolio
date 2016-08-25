@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+*{margin:0;padding:0;}
+
+/* 메인 제목 */
+#subLoginArt1{
+              text-align:center;
+              margin:20px;
+}
+#subLoginArt1 h2{
+                font-size:40px;
+}
+#subLoginArt1 p{
+                font-size:14px;
+}
+
+/* 내부 로그인 창 */
+#subLoginForm,
+#subLoginForm1,
+#user_id,
+#user_password,
+#subLoginForm1 label:nth-of-type(3),
+#subLoginForm1 p:nth-of-type(1),
+#subLoginForm1 p:nth-of-type(2),
+#subLoginForm1 p:nth-of-type(3),
+#subLoginForm1 p:nth-of-type(4),
+#subLoginForm2,
+#login,
+#findIdPw,
+#user_join{position:relative;}
+
+#subLoginForm{
+              text-align:center;
+              height:290px;
+              margin:30px;
+              border:1px solid black;
+}
+#subLoginForm1{
+              display:inline-block;
+              top:20px;
+              left:0px;
+              width:300px;
+              height:250px;
+              margin-left:35px;
+}
+#user_id{
+          display:block;
+          top:0;
+          left:0;
+          width:270px;
+          height:40px;
+}
+#user_password{
+                display:block;
+                top:10px;
+                left:0;
+                width:270px;
+                height:40px;
+}
+#subLoginForm1 label:nth-of-type(3){
+                                    top:15px;
+                                    left:-110px;
+                                    font-size:13px;
+}
+
+#subLoginForm1 p:nth-of-type(1),
+#subLoginForm1 p:nth-of-type(2),
+#subLoginForm1 p:nth-of-type(3),
+#subLoginForm1 p:nth-of-type(4){text-align:left;}
+
+#subLoginForm1 p:nth-of-type(1),
+#subLoginForm1 p:nth-of-type(3){font-size:15px;}
+#subLoginForm1 p:nth-of-type(2),
+#subLoginForm1 p:nth-of-type(4){font-size:12px;}
+
+#subLoginForm1 p:nth-of-type(1){top:25px;}
+#subLoginForm1 p:nth-of-type(2){top:30px;}
+#subLoginForm1 p:nth-of-type(3){top:45px;}
+#subLoginForm1 p:nth-of-type(4){top:50px;}
+
+#subLoginForm2{
+              display:inline-block;
+              top:20px;
+              left:0px;
+              width:300px;
+              height:250px;
+}
+
+#login,
+#findIdPw,
+#user_join{
+            display:block;
+            width:250px;
+}
+#user_join a:link,
+#user_join a:visited,
+#user_join a:hover,
+#user_join a:active{color:black;}
+
+#login{
+        height:100px;
+        top:0px;
+}
+#findIdPw{
+          height:50px;
+          top:30px;
+}
+#user_join{
+            height:50px;
+            top:40px;
+}

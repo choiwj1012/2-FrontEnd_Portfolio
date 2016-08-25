@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+*{margin:0;padding:0;}
+
+/* 메인 제목 */
+#subJoinArt1{
+              text-align:center;
+              margin:20px;
+}
+#subJoinArt1 h2{
+                font-size:40px;
+}
+#subJoinArt1 p{
+                font-size:14px;
+}
+
+/* 회원 가입 창 */
+#subJoinForm1{
+              display:block;
+              position:relative;
+              height:330px;
+              text-align:center;
+}
+#subJoinForm1 label{
+                    display:block;
+                    position:relative;
+}
+#subJoinForm1 input{
+                    width:500px;
+                    height:40px;
+}
+#subJoinForm1 label:nth-of-type(1){top:0;left:-20px;}
+#subJoinForm1 label:nth-of-type(2){top:5px;left:-28px;}
+#subJoinForm1 label:nth-of-type(3){top:10px;left:-36px;}
+#subJoinForm1 label:nth-of-type(4){top:15px;left:-52px;}
+#subJoinForm1 label:nth-of-type(5){top:20px;left:-28px;}
+#subJoinForm1 label:nth-of-type(6){top:27px;left:-158px;}
+#subJoinForm1 label:nth-of-type(6) input{width:13px;height:13px;}
+#subJoinForm1 p{
+                position:relative;
+                top:35px;
+                left:-28px;
+                font-size:12px;
+}
+
+#seeAgreement a:link,
+#seeAgreement a:visited,
+#seeAgreement a:hover,
+#seeAgreement a:active,
+#seeUserInfo a:link,
+#seeUserInfo a:visited,
+#seeUserInfo a:hover,
+#seeUserInfo a:active{color:black;}
+
+
+
+/* 약관 동의 창 */
+#subJoinForm2 {
+                display:block;
+                position:relative;
+                height:250px;
+                border:1px solid black;
+}
+#subJoinForm2 label{
+                    position:relative;
+}
+#subJoinForm2 label input{
+                            margin-left:10px;
+}
+#subJoinForm2 label:nth-of-type(1){
+                                    display:block;
+                                    border-bottom:1px dotted black;
+                                    padding:5px 20px;
+}
+#subJoinForm2 label:nth-of-type(2),
+#subJoinForm2 label:nth-of-type(3),
+#subJoinForm2 label:nth-of-type(4){
+                                    display:inline-block;
+                                    padding:5px 20px;
+}
+#subJoinForm2 p:nth-of-type(1){
+                                border-top:1px dotted black;
+                                padding:20px;
+}
+#subJoinForm2 p:nth-of-type(2){
+                                padding:0 20px;
+}
+#subJoinForm2 button:nth-of-type(3){
+                                    position:relative;
+                                    top:10px;
+                                    left:400px;
+                                    width:300px;
+                                    height:50px;
+
+}
+
+/*이용약관*/
+#subJoinArt3{
+              display:block;
+              position: relative;
+              height:530px;
+}
+#subJoinArt3 h3{
+                margin:25px 10px;
+}
+
+#subJoinArt3 textarea{
+                      width:1100px;
+                      height:200px;
+}
+
+/*개인정보 수집 및 이용*/
+#subJoinArt3 table{
+                    display:block;
+                    position:relative;
+                    border-collapse:collapse;
+}
+#subJoinArt3 th,
+#subJoinArt3 td{
+                  text-align:center;
+                  height:50px;
+                  border:1px solid black;
+}
+#subJoinArt3 th{
+                width:200px;
+}
+#subJoinArt3 td{
+                width:300px;
+}

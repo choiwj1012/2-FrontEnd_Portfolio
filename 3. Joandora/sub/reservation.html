@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Joradora</title>
+    <link href="../css/common.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="wrapper">
+        <header>
+          <h1><a href="../index.html">Joradora</a></h1>
+          <h2>가장 제주다운 수산리집</h2>
+          <nav>
+            <ul>
+              <li><a href="guide.html">이용안내</a></li>
+              <li><a href="room.html">객실안내</a></li>
+              <li><a href="pay.html">예약방법 및 요금</a></li>
+              <li><a href="reservation.html">예약하기</a></li>
+            </ul>
+          </nav>
+        </header>
+      <section id="reservation_section">
+        <h2>예약하기</h2>
+        <form action="register.php" method="post">
+          <fieldset>
+            <legend>예약자 정보</legend>
+            <ul>
+              <li><label for="user_name">예약자</label><input type="text" id="user_name" placeholder="이름을 입력하세요" required></li>
+              <li><label for="user_tel">연락처</label><input type="tel" id="user_tel" placeholder="전화번호를 입력하세요" required></li>
+              <li><label for="user_num">예약 인원</label><input type="number" id="user_num" min="1" max="6" step="1" required></li>
+              <li><label for="user_bank">입금 은행</label><input type="text" id="user_bank" placeholder="입금 은행을 입력하세요" requred></li>
+          </fieldset>
+        </form>
+      </section>
+      <aside>
+        <h3>알립니다</h3>
+        <p>게스트 하우스 예약은 전화 <span class="txt_style2">070-1231-2314</span>로 직접 통화하시는게 가장 정확하고 빠릅니다.
+           <span class="txt_style3">인터넷 전화이므로 시외 전화 요금이 부과되지 않습니다.</span></p>
+        <ul>
+          <li><img src="images/aside_1.jpg" width="200px" height="113px" alt=""></li>
+          <li><img src="images/aside_2.jpg" width="200px" height="113px" alt=""></li>
+          <li><img src="images/aside_3.jpg" width="200px" height="112px" alt=""></li>
+        </ul>
+      </aside>
+    <footer>
+      <p>제주특별자치도 남제주군 성산읍 수산리 777번지 요안도라</p>
+      <address>yoan77@naver.com</address>
+      <p>copyright &copy;. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>

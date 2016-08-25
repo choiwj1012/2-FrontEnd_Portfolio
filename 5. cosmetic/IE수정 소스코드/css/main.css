@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+*{margin:0;padding:0;}
+img{border:none; outline:none;}
+/*메인 슬라이드쇼 이미지 */
+#mainImage{
+            overflow:hidden;
+            position:relative;
+            width:1100px;
+            height:400px;
+}
+#sliderPanel{
+                  width:3300px;
+                  position:relative;
+}
+.sliderImg{
+                float:left;
+                width:1100px;
+                height:400px;
+}
+#sliderControl{
+                position:absolute;
+                top:360px;
+                left:520px;
+                height:13px;
+                overflow:hidden;
+                margin-right:3px;
+}
+.sliderControlButton{
+                      width:13px;
+                      height:46px;
+                      position:relative;
+                      float:left;
+                      cursor:pointer;
+                      background:url("../images/point_button.png");
+}
+.sliderControlButton:hover{top:-16px;}
+.sliderControlButton.active{top:-31px;}
+
+/*메인 첫번째 article */
+#mainArt1{
+          overflow:hidden;
+          display:block;
+          position:relative;
+          top:0;
+          left:0;
+          width:1100px;
+          height:350px;
+}
+#mainArt1 h2{
+              padding:10px;
+              text-align:center;
+}
+#mainArt1Img1,
+#mainArt1Img2,
+#mainArt1Img3,
+#mainArt1Img4,
+#mainArt1Img5{
+              float:left;
+              position:relative;
+              width:150px;
+              padding:20px 0;
+              margin:0px 35px;
+              text-align:center;
+}
+
+/* 메인 두번째 article */
+#mainArt2{
+              overflow: hidden;
+              border:1px solid #f6f6f6;
+              display:block;
+              position:relative;
+              width:1100px;
+              height:300px;
+}
+#mainArt2 h2{
+                  padding:20px;
+                  text-align: center;
+}
+#mainArt2Img1,
+#mainArt2Img2,
+#mainArt2Img3{
+              float:left;
+              position:relative;
+              top:0;
+              left:11px;
+              padding:10px 0;
+              margin:0px 20px;
+              text-align:center;
+              border:1px solid #f6f6f6;
+}
+
+/* 메인 세번째 article */
+#mainArt3{
+              display:inline-block;
+              position:relative;
+              width:1100px;
+              height:430px;
+}
+#mainArt3Img1,
+#mainArt3Img2,
+#mainArt3Img3{
+              float:left;
+              position:relative;
+              top:0;
+              left:0px;
+              width:366px;
+              margin:40px 0px;
+              text-align:center;
+}
+
+/* 메인 네번째 article */
+#mainArt4{
+              overflow: hidden;
+              position:relative;
+              width:1100px;
+              height:550px;
+              border:1px solid #f6f6f6;
+              text-align:center;
+}
+#mainArt4 h2{
+              padding:10px;
+}
+#mainArt4Img1,
+#mainArt4Img2,
+#mainArt4Img3{
+              position:absolute;
+              top:50px;
+}
+#mainArt4Img1{
+              left:30px;
+}
+#mainArt4Img2{
+              overflow:hidden;
+              left:310px;
+              width:477px;
+              height:455px;
+              margin:0 auto;
+}
+#sliderPanel2{
+              width:1908px;
+              position:absolute;
+}
+.sliderImg2{
+            float:left;
+            width:477px;
+            height:455px;
+}
+#sliderControl2{
+                position:absolute;
+                top:430px;
+                left:220px;
+                height:13px;
+                overflow:hidden;
+}
+.sliderControlButton2{
+                      width:13px;
+                      height:46px;
+                      position:relative;
+                      float:left;
+                      cursor:pointer;
+                      background:url("../images/point_button.png");
+}
+.sliderControlButton2:hover{top:-16px;}
+.sliderControlButton2.active{top:-31px;}
+#mainArt4Img3{
+              left:830px;
+}

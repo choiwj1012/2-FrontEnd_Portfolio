@@ -1,0 +1,238 @@
+@charset "utf-8";
+
+/*------------------------------ 공통 영역 ---------------------------------- */
+*{margin:0; padding:0;}
+
+#wrapper{
+          width:800px;
+          margin:0 auto;
+}
+img{
+    border:none;
+}
+a:link, a:visited{
+                  color:white;
+                  font-weight:bold;
+                  text-decoration:none;
+}
+a:hover, a:active{
+                  color:orange;
+                  text-shadow:2px 2px 2px black;
+}
+header nav{
+            overflow:hidden;
+            background-color:#006599;
+            height:150px;
+}
+header nav h1{
+              float:left;
+}
+header nav ul li{
+                  float:left;
+                  margin:100px 20px 0 50px;
+                  list-style-type:none;
+}
+footer{
+        background-color:#333;
+        color:white;
+        text-align:center;
+        padding:20px 0;
+}
+/*---------------------------------INDEX------------------------------------- */
+#main_section{
+              overflow:hidden;
+              padding-bottom:10px;
+              border-left:1px solid #888;
+              border-right:1px solid #888;
+              background-image:url(../images/back.jpg);
+              background-repeat:no-repeat;
+              background-size:cover;
+              background-position:0 57px;
+}
+#main_section h2{
+            margin:15px 0 15px 15px;
+}
+#main_article{
+              float:left;
+              font-size:12px;
+              width:250px;
+              height:650px;
+              margin:0 10px;
+              border:1px dotted #777;
+              border-radius:10px;
+              background-color:rgba(255,255,255,0.8);
+}
+#main_article:nth-last-of-type(2){
+                                  margin:0;
+}
+#main_article h3{
+                  background-image:url(../images/icon.png);
+                  background-repeat:no-repeat;
+                  background-position:10px;
+                  background-color:#E1F0C2;
+                  margin:20px 10px 20px 10px;
+                  padding:5px 0 5px 40px;
+}
+#main_article dt{
+                  margin:0 0 5px 10px;
+}
+#main_article dd{
+                  margin:0 10px 0 50px;
+                  line-height:25px;
+}
+#main_aside{
+            font-size:12px;
+            background-color:#99CC33;
+}
+#main_aside h3{
+                padding:20px 0 20px 20px;
+}
+#main_aside ul{
+                padding:0 0 20px 50px;
+}
+#main_aside ul li{
+                  line-height:25px;
+                  list-style-type:square;
+}
+/*----------------------------------SHOP------------------------------------- */
+#shop_header h1{
+                float:right;
+}
+#shop_header nav{
+                  background-color:#F46075;
+}
+#shop_section h2{
+                  margin:15px 0 10px 15px;
+}
+#shop_section .shop_article{
+                            float:left;
+                            border:1px dotted #333;
+                            margin:5px;
+                            width:280px;
+                            height:280px;
+                            font-size:12px;
+                            line-height:25px;
+                            transition:all 1s;
+}
+#shop_section .shop_article h3{
+                                margin:20px 0 20px 10px;
+}
+#shop_section .shop_article p{
+                              margin:0 10px 0 10px;
+}
+#at1:hover{
+      background-color:#cf9;
+      border-color:#008000;
+}
+#at2:hover{
+      background-color:#a2d0ff;
+      border-color:blue;
+}
+#at3:hover{
+      background-color:#ebcbfe;
+      border-color:#00f;
+}
+#at4:hover{
+      background-color:#fc3;
+      border-color:#f00;
+}
+#shop_aside{
+            float:right;
+            margin-top:-287px;
+            margin-bottom:10px;
+            width:200px;
+            height:572px;
+            border:1px dotted #333;
+            background-color:#FFFFCC;
+}
+#shop_aside ul li{
+                  margin:10px;
+                  list-style-type:none;
+}
+#shop_footer{
+              clear:both;
+}
+/*---------------------------------HEALTH------------------------------------ */
+#health_header nav{
+                    background-color:#FFA500;
+}
+#health_header nav h1{
+                      margin:-120px 0 0 290px;
+}
+#health_header nav ul li:nth-of-type(2){
+                                        margin-right:185px;
+}
+#health_section article{
+                        margin:10px 0;
+                        transition:all 1s;
+}
+#health_section article ul{
+                            list-style-type: none;
+}
+#health_section article h2{
+                            margin:15px 0 10px 15px;
+}
+#health_section article li,dd{
+                              margin-left:50px;
+                              padding-bottom:10px;
+}
+#health_section article p{
+                          margin:10px;
+}
+#health_section article dt{
+                          margin:10px;
+}
+#at5{
+      border:1px solid black;
+      border-radius:30px 0 0;
+}
+#at6{
+      border:1px dotted blue;
+      border-radius:30px 0 0 0;
+}
+#at7{
+      border:1px double green;
+      border-radius:0 0 30px ;
+}
+#at8{
+      border:1px double green;
+      border-radius:0 0 30px 0;
+}
+#at5:hover{
+      background-color:#cf9;
+      border-color:#008000;
+}
+#at6:hover{
+      background-color:#a2d0ff;
+      border-color:blue;
+}
+#at7:hover{
+      background-color:#ebcbfe;
+      border-color:#00f;
+}
+#at8:hover{
+      background-color:#fc3;
+      border-color:#f00;
+}
+/*----------------------------------WITH--------------------------------------*/
+#with_section{
+              border:3px solid #333;
+}
+#with_section article{
+                      margin:20px;
+}
+#with_section article figure{
+                              font-size:12px;
+                              color:red;
+                              font-style:italic;
+}
+#with_section article ul{
+                          margin-top:20px;
+                          list-style-type:square;
+}
+#with_section article ul li{
+                            margin-left:40px;
+}
+#with_section article video{
+                            margin-top:20px;
+}
